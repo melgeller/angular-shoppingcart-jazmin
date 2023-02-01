@@ -1,0 +1,24 @@
+
+    <article class="gallery">
+        <ul>
+            <li *ngFor="let food of foodInfo.foodcard">
+                <figure id="menu">
+                    <img class="foodimg" src={{food.picture.src}} alt={{food.picture.alt}}>
+                    <h3>{{food.name}}</h3>
+                    <p>{{food.ingredients}}</p>
+                    <div class="alergiesPack">
+                    <img class="alergies" src={{food.alergies.src}} alt={{food.alergies.alt}}>
+                    <img class="alergies" src={{food.alergies2.src}} alt={{food.alergies2.alt}}>
+                    <img class="alergies" src={{food.alergies3.src}} alt={{food.alergies3.alt}}>
+                    <img class="alergies" src={{food.alergies4.src}} alt={{food.alergies4.alt}}>
+                    <img class="alergies" src={{food.alergies5.src}} alt={{food.alergies5.alt}}>
+                    </div>
+                    <p>{{food.price}}</p>
+                    <img class="starsimg" src={{food.stars.src}} alt={{food.picture.alt}}>
+                    <div class="soloBoton">
+                    <button class="buttonAdd">Añadir</button>
+                </div>
+                </figure> 
+            </li>
+        </ul>
+    </article>

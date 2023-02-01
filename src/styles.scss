@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #F3F4F6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/assets/fondo2.jpg);
+    background-size:contain;
+    font-family: 'Sofia Sans', sans-serif;
+    background-attachment: fixed;
+    margin: 0;
+    @media (max-width: 1430px) {
+        background-size: cover;
+      }
+    ul{
+        list-style-type: none;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}

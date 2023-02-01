@@ -1,0 +1,42 @@
+.footerCredits {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  p {
+    margin: 0;
+  }
+  .phone {
+    display: flex;
+    width: 40%;
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .picture{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 10px;
+        img{
+            width: 40px;
+        }
+    }
+  }
+  .jazminAdress {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    @media screen and (max-width: 950px) {
+        p{
+            font-size: x-small;
+            text-align: end;
+        }
+      }
+  }
+}

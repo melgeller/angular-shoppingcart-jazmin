@@ -1,0 +1,22 @@
+<header>
+  <img src="../../../assets/logo.png" alt="logo" />
+  <nav>
+    <ul class="menu4">
+      <li *ngFor="let element of searchInfo">
+        <span><a href="{{ element.link }}">{{ element.content }}</a></span>
+      </li>
+    </ul>
+    <ul class="menu3">
+        <li>
+            <input class="form-control" type="text" placeholder="buscar productos">
+        </li>
+        <img class="search" src="../../../assets/search.png" alt="">
+        <li *ngFor="let element of navigatorInfo">
+            <span
+              ><a href="{{ element.link }}">{{ element.content }}</a></span
+            >
+          </li>
+    </ul>
+  </nav>
+  
+</header>

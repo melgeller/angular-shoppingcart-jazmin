@@ -1,0 +1,38 @@
+footer{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+    margin-bottom: 150px;
+    form{
+        display: flex;
+        flex-direction: column;
+        .button{
+            background-color: #ca3636;
+            border: 2px solid white;
+            border-radius: 30px;
+            height: 50px;
+            color: white;
+            font-family: 'Sofia Sans', sans-serif;
+            font-size: large;
+            width: 300px;
+            cursor: pointer;
+            &:hover{
+                background-color: #992a2a;
+            }
+        }
+        .input{
+            margin-bottom: 10px;
+            border-radius: 30px;
+            border: 2px solid white;
+            height: 30px;
+            font-family: 'Sofia Sans', sans-serif;
+            font-size: medium;
+            text-align: center;
+
+        }
+    }
+}
